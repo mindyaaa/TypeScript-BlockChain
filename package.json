@@ -1,0 +1,19 @@
+{
+  "name": "typescript",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "build" : "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mindyaaa/TypeScript-BlockChain.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mindyaaa/TypeScript-BlockChain/issues"
+  },
+  "homepage": "https://github.com/mindyaaa/TypeScript-BlockChain#readme"
+}
