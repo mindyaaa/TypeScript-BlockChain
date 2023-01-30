@@ -1,3 +1,4 @@
+"use strict";
 // //@ts-check
 // /**
 //  * Initializes the project
@@ -6,18 +7,14 @@
 //  * @param {string} config.url 
 //  * @returns {void}
 //  */
-
 // export function init(config) {
 //     return true;
 // }
-
 // /**
 //  * Exit the program
 //  * @param {number} code 
 //  * @returns  {number}
 //  */
-
 // export function exit(code) {
 //     return code + 1;
 // }
-

@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "build" : "tsc"
+    "build": "tsc",
+    "dev": "nodemon --exec ts-node src/index.ts",
+    "start": "node build/index.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +17,11 @@
   "bugs": {
     "url": "https://github.com/mindyaaa/TypeScript-BlockChain/issues"
   },
-  "homepage": "https://github.com/mindyaaa/TypeScript-BlockChain#readme"
+  "homepage": "https://github.com/mindyaaa/TypeScript-BlockChain#readme",
+  "devDependencies": {
+    "ts-node": "^10.9.1"
+  },
+  "dependencies": {
+    "nodemon": "^2.0.20"
+  }
 }
