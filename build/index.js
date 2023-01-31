@@ -1,2 +1,8 @@
 "use strict";
-console.log("hi");
+class Block {
+    constructor(prevHash, height, data) {
+        this.prevHash = prevHash;
+        this.height = height;
+        this.data = data;
+    }
+}
